@@ -22,7 +22,7 @@ The normal array list data input have been substituted with the Database input o
   The Port number was changed from 8080 to 9090 in \src\main\resources\application.properties ; Therefore the link port number had to be changed from localhost:8080/courses/  to localhost:9090/courses/        <br>
 </h4>
 
-<img src="img_girl.jpg" alt="Flow Chart" width="" height="">
+<img src="https://github.com/shreyansh225/Spring_Boot_App_with_MySQL_config/blob/master/Diagrams%20and%20Photos/Spring%20boot%20work%20flow.jpeg" alt="Flow Chart" width="" height="">
 
 API Urls for the course App  <br>
 <p>
