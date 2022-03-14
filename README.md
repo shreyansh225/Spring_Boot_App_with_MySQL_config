@@ -23,6 +23,8 @@ The normal array list data input have been substituted with the Database input o
 </h4>
 
 <img src="https://github.com/shreyansh225/Spring_Boot_App_with_MySQL_config/blob/master/Diagrams%20and%20Photos/Spring%20boot%20work%20flow.jpeg" alt="Flow Chart" width="" height="">
+<br>
+<img src="https://github.com/shreyansh225/Spring_Boot_App_with_MySQL_config/blob/master/Diagrams%20and%20Photos/Spring%20boot%20work%20flow.jpeg" alt="Flow Chart" width="" height="">
 
 API Urls for the course App  <br>
 <p>
