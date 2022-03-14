@@ -15,8 +15,19 @@ The normal array list data input have been substituted with the Database input o
 
 <h4>
   Step 1: Clone/Download zip and Open the folder in Spring Tool Suits or in Eclipse.        <br>
-  Step 2: To Run the application go to src\main\java\com\springrestD\springrestD\SpringrestDApplication.java  <br>
+  Step 2: To Run the application go to src\main\java\com\springrestD\springrestD\SpringrestDApplication.java   and run as Java Application or if in Spring tool Suit u can run as Spring Boot App <br>
   Step 3: Open Postman and in a Workspace enter the url link localhost:9090/courses/ to check the GET, POST, PUT, DELETE Requests. <br><br>
   
   The Port number was changed from 8080 to 9090 in \src\main\resources\application.properties ; Therefore the link port number had to be changed from localhost:8080/courses/  to localhost:9090/courses/        <br>
 </h4>
+
+API Urls for the course App  <br>
+<p>
+  <h3>Method----------API Urls(Urls start with Base url)----------- Operation</h3> <br>
+
+   GET----------------------/courses--------------------------------Get all course  <br>
+   GET----------------------/courses/{courseId}---------------------Get single course of the given courseId in Url  <br>
+   POST---------------------/courses ------------------------------ Add new course  <br>
+   PUT----------------------/courses--------------------------------Update the course  <br>
+  DELETE--------------------/courses/{courseId}----------------------Delete the course of the given courseId in the url  <br>
+<p>
