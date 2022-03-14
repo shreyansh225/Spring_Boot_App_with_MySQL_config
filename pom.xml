@@ -18,12 +18,14 @@
 	</properties>
 	<dependencies>
 	<!--  Step 1 -  comment out the JPA dependency in the begining or else it will show error (Step 2 in SpringrestDapplication.java) -->
-	<!--  
+	<!--  Step 32 -  comment out of the JPA dependency was removed Because now we need to use the implementation of JPA is Java Persistence API like Hibernate-->
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-	-->
+	<!--  Step 33 - if the project doesn't get build as soon as the dependencies were added, then right click on the project -> Maven -> Update Project -> OK -->
+	<!--  Step 34 in application.properties -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

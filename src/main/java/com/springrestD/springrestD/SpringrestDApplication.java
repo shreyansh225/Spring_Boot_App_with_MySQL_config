@@ -17,6 +17,7 @@ public class SpringrestDApplication {
 	}
 
 }
+// Step 31 - Go to application.properties in resources to make changes in port numbers
 
 // API Urls for the course App
 //
