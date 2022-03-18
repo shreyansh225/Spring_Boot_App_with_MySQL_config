@@ -1,5 +1,5 @@
 package com.springrestD.springrestD.controller;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +21,7 @@ import com.springrestD.springrestD.services.CourseService;
            
 // Step 3 - it is a controller of REST Service
 @RestController
+@CrossOrigin(origins = {"http://localhost:3000"})
 public class MyController //  Controller in Presentation layer and all the requests will come firstly to the controller in a maven project
 {
 	@Autowired                             // Step 18 - Spring will automatically create object and inject here for the implementation class(CourseServiceIMPL) of interface(CourseService)
@@ -47,7 +48,8 @@ public class MyController //  Controller in Presentation layer and all the reque
 	}
 	
 	// Step 20 - created a new method for getting/displaying a single course by id
-	@GetMapping("/courses/{courseId}")    // {} curly braces coz we need the link by its Value
+	
+	@GetMapping("/courses/{courseId}")   // {} curly braces coz we need the link by its Value
 	public Course getCourse(@PathVariable String courseId) {   // Step 21 - @pathVariable annotation will help Spring understand that the String courseId can be dynamically passed from the link to the parameter
 		// Course is the return Type here
 		return this.courseService.getCourse(Long.parseLong(courseId));   // (Step 22 in CourseService.java)

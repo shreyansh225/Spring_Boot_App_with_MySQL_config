@@ -2,12 +2,15 @@ package com.springrestD.springrestD.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
 //Step 45 - add the entity annotation 
 @Entity
 public class Course {
 	// Step 5 - Declare variables 
 	@Id          // add Id annotation for the primary key
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;              
 	private String title;
 	private String description;
