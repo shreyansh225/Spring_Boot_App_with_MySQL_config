@@ -1,6 +1,7 @@
 # Spring_Boot_App_with_MySQL_config
 The normal array list data input have been substituted with the Database input output commands And CrossOrigin (Cors) Errors have been resolved.
 <h4> Previous Version of the Spring Boot application without SQL Congiguration is - https://github.com/shreyansh225/Spring_Boot_Application.git </h4> 
+<h4> For any type of cors(crossOrigin) Error do refer -  https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-crossorigin-annotation-example/ </h4>
 
 <h3> SOFTWARE REQUIREMENTS </h3>
 <h4>
